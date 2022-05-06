@@ -51,7 +51,7 @@ public class PartitionConfig {
     public Partitioner partitioner() throws Exception {
         MultiResourcePartitioner partitioner = new MultiResourcePartitioner();
         PathMatchingResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
-        partitioner.setResources(resolver.getResources("file:/home/java/meta_Clothing_Shoes_and_Jewelry/x*"));
+        partitioner.setResources(resolver.getResources("D:\\Desktop\\软件体系结构\\aw06-datapacks\\Software_5\\x*"));
         return partitioner;
     }
 
