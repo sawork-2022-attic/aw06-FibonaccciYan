@@ -34,7 +34,7 @@ public class BatchConfig {
 
     @Bean
     public ItemReader<JsonNode> itemReader() {
-        return new JsonFileReader("D:\\Desktop\\软件体系结构\\aw06-datapacks\\Software_5.json");
+        return new JsonFileReader("src/main/resources/data/meta_Magazine_Subscriptions.json");
     }
 
     @Bean
